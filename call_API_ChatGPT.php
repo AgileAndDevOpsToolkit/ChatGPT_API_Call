@@ -1,5 +1,5 @@
 <?php 
-$ChatGPT_API_Key = '${{ secrets.OPEN_API_KEY }}'; // Remplacez par votre clé API OpenAI
+$ChatGPT_API_Key = '${{ secrets.OPENAI_API_KEY }}'; // Remplacez par votre clé API OpenAI
 
 function call_API_POST_ChatGPT($json_body, $ChatGPT_API_Key){
     $curl = curl_init('https://api.openai.com/v1/chat/completions');
